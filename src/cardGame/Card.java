@@ -50,6 +50,12 @@ public class Card {
 	public void setCardPicture(String cardPicture) {
 		this.cardPicture = cardPicture;
 	}
+	
+	@Override
+	public String toString() {
+		return "Card [cardSuit=" + cardSuit + ", cardName=" + cardName + ", cardValue=" + cardValue + ", cardPicture="
+				+ cardPicture + "]";
+	}
 
 	// toString() method 
 	@Override
@@ -61,8 +67,8 @@ public class Card {
 		if (getClass() != obj.getClass())
 			return false;
 		Card other = (Card) obj;
-		return Objects.equals(cardName, other.cardName) && Objects.equals(cardPicture, other.cardPicture)
-				&& Objects.equals(cardSuit, other.cardSuit) && cardValue == other.cardValue;
+		return Objects.equals(cardName, other.cardName) && cardValue == other.cardValue;
+		// Only compares carName and cardValue; eample - if values equals each other - return true 
 	}
 		
 }
