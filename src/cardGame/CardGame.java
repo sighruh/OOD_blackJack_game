@@ -1,3 +1,9 @@
+
+// Saira Davis
+// September 24, 2026
+// Blackjack Card Game
+// Create Card objects and uses them in a simple card game 
+
 package cardGame;
 
 import java.io.File;
