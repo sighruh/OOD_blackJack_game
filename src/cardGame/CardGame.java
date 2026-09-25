@@ -1,5 +1,5 @@
 
-// Saira Davis
+// Saira Davis & Jameela Ahmed
 // September 24, 2026
 // Blackjack Card Game
 // Create Card objects and uses them in a simple card game 

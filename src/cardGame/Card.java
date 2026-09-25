@@ -1,3 +1,9 @@
+
+// Saira Davis & Jameela Ahmed
+// September 24, 2026
+// Blackjack Card Game
+// Create Card objects and uses them in a simple card game 
+
 package cardGame;
 
 import java.util.Objects;
@@ -51,13 +57,15 @@ public class Card {
 		this.cardPicture = cardPicture;
 	}
 	
+	
+	// toString() method
 	@Override
 	public String toString() {
 		return "Card [cardSuit=" + cardSuit + ", cardName=" + cardName + ", cardValue=" + cardValue + ", cardPicture="
 				+ cardPicture + "]";
 	}
 
-	// toString() method 
+	// toString() equals method 
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
