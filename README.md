@@ -34,4 +34,6 @@
    - So a linear search starts a the beginning of an arrayList and then searches each item.
    - It will go to each item and then compare it to the item that it needs to match.
    - Once it finds the item it will stop the search. If not it will keep going down the list until it finds the match.
-     
+
+Why was an equals() method needed for the Card objects?
+- The reason why the equals() method was needed for the Card objects was because it helped the program compare two Card objects. Essentially it needed to make sure that the cardName and cardValue were the same regardless of CardSuit.  
